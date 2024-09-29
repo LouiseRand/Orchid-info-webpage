@@ -1,0 +1,43 @@
+$primary-color: #FFF;
+$secondary-color: #000;
+$secondary-text-color: rgb(0, 0, 0);
+$mobile-nav-trigger-bg: #FFF;
+
+// abstracts
+@import "abstracts/variables";
+
+// Vendors
+@import "vendors/bootstrap";
+
+@import "../node_modules/lightgallery/scss/lightgallery-bundle.scss";
+
+// base
+
+
+// layout
+@import "layout/header";
+@import "layout/flipcard";
+@import "layout/test";
+
+
+//components
+@import "components/orchid-slide-card";
+@import "components/headings";
+@import "components/orchid-card";
+@import "components/buttons";
+@import "components/video-card";
+@import "components/table";
+@import "components/dropnav";
+@import "components/logintabs";
+@import "components/socialmedia";
+
+
+//pages
+@import "pages/login";
+@import "pages/orchid";
+@import "pages/problems";
+@import "pages/home";
+
+
+//themes
+@import "themes/theme";

@@ -1,0 +1,25 @@
+.orchid-slide-card {
+    margin: 10px;
+    background-color: #FFF;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.15);
+    padding: 12px;
+    text-align: center;
+    border: solid 4px rgb(227, 181, 224);
+
+    h3 {
+        font-size: 1.1rem;
+        padding-top: 10px;
+    }
+
+    .orchid-slide-card-img {
+        height: 200px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+
+}
